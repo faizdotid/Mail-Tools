@@ -36,14 +36,14 @@ class SplitMail:
         for mail in self.mail_list:
             try:
                 usr, domain = mail.split('@')
-                domain = domain.split('.')[0]
+                domainsave = domain.split('.')[0]
                 self.add(domain)
-                self.save_to_file(domain+".txt", mail)
+                self.save_to_file(domainsave+".txt", mail)
             except (IndexError, ValueError):
                 pass
         if len(self.domain_conf) > 0:
             for k,v in self.domain_conf.items():
-                print("{:<20} => {}".format(k.capitalize(), str(v)))
+                print("{:<30} => {}".format(k.capitalize(), str(v)))
             print('Done filterring and check your result folder :) ')
 
 def main():
