@@ -106,7 +106,7 @@ def main():
 
 \tTelegram: https://t.me/istmepaiz
 
-1. Split email & password
+1. Split email and password
 2. Filter email by domain
 3. Scrape email from website list
 
