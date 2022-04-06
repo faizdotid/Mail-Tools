@@ -17,3 +17,5 @@ $ cd MailSPlit
 $ python3 main.py
 # and enter your option
 ```
+## Donation
+BTC: bc1qstf92cemx4ln0urpm2a37j7zyuphhn5l5knaky
