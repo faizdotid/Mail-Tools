@@ -1,7 +1,7 @@
 # MailSplit
 Tools for splitting and filtering email list
 
-![This is an image](https://raw.githubusercontent.com/faizgans14/MailSplit/main/pict.png)
+![This is an image](https://raw.githubusercontent.com/faizgans14/Mail-Tools/main/pict.png)
 
 ## How to use ?
 ```bash
